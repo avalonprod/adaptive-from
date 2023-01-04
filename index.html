@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+            <div class="top-text">
+                <h2 class="top-title">Material costs for Hey! Here's sample work item...</h2>
+                <h3 class="top-descr">£160.00  £140.00 ex.markup</h3>
+            </div>
+            <button class="top-button">Done</button>
+        </div>
+        <div class="titles">
+            <span class="descr-title inp-title">Material</span> 
+            <span class="qty-title inp-title">Qty</span> 
+            <span class="unit__type-title inp-title">Unit type</span> 
+            <span class="cost-title inp-title">£per unit</span> 
+            <span class="markup-title inp-title">%markap</span> 
+            <span class="total-title inp-title">Total</span>
+        </div>
+        <ul>
+            <li>
+                <div class="descr__wrapper inp__wrapper">
+                    <label for="descr" class="label descr-label">Material</label>
+                    <input type="text" class="descr" id="descr" placeholder="Enter material description">
+                </div>
+                <div class="qty__wrapper inp__wrapper">
+                    <label for="qty" class="label qty-label">Qty</label>
+                    <input type="number" class="qty" id="qty" placeholder="1">
+                </div>
+                <div class="unit__type_wrapper inp__wrapper">
+                    <label for="unit__type" class="label unit__type-label">Unit type</label>
+                    <input type="text" class="unit__type" id="unit__type">
+                </div>
+                
+                <div class="cost__wrapper inp__wrapper">
+                    <label for="cost" class="label cost-label">£ per unit</label>
+                    <input type="number" class="cost" id="cost" placeholder="0.00"> 
+                    <div class="sing">£</div>
+                </div>
+                <div class="markap__wrapper inp__wrapper">
+                    <label for="markup" class="label markup-label">% markup</label>
+                    <input type="number" class="markup" id="markup" placeholder="0"> 
+                    <div class="procent">%</div>
+                </div>
+                <div class="total__wrapper inp__wrapper">
+                    <label for="total" class="label total-label">Total</label>
+                    <div class="total" id="total">£0.00</div>
+                </div>
+                <div class="icons">
+                    <div class="save icon"><img src="./icons/save.png" alt=""></div>
+                    <div class="delete icon"><img src="./icons/delete.png" alt=""></div>
+                </div>
+            </li>
+            <li>
+                <div class="descr__wrapper inp__wrapper">
+                    <label for="descr" class="label descr-label">Material</label>
+                    <input type="text" class="descr" id="descr" placeholder="Enter material description">
+                </div>
+                <div class="qty__wrapper inp__wrapper">
+                    <label for="qty" class="label qty-label">Qty</label>
+                    <input type="number" class="qty" id="qty" placeholder="1">
+                </div>
+                <div class="unit__type_wrapper inp__wrapper">
+                    <label for="unit__type" class="label unit__type-label">Unit type</label>
+                    <input type="text" class="unit__type" id="unit__type">
+                </div>
+                
+                <div class="cost__wrapper inp__wrapper">
+                    <label for="cost" class="label cost-label">£ per unit</label>
+                    <input type="number" class="cost" id="cost" placeholder="0.00"> 
+                    <div class="sing">£</div>
+                </div>
+                <div class="markap__wrapper inp__wrapper">
+                    <label for="markup" class="label markup-label">% markup</label>
+                    <input type="number" class="markup" id="markup" placeholder="0"> 
+                    <div class="procent">%</div>
+                </div>
+                <div class="total__wrapper inp__wrapper">
+                    <label for="total" class="label total-label">Total</label>
+                    <div class="total" id="total">£0.00</div>
+                </div>
+                <div class="icons">
+                    <div class="save icon"><img src="./icons/save.png" alt=""></div>
+                    <div class="delete icon"><img src="./icons/delete.png" alt=""></div>
+                </div>
+            </li>
+            <li>
+                <div class="descr__wrapper inp__wrapper">
+                    <label for="descr" class="label descr-label">Material</label>
+                    <input type="text" class="descr" id="descr" placeholder="Enter material description">
+                </div>
+                <div class="qty__wrapper inp__wrapper">
+                    <label for="qty" class="label qty-label">Qty</label>
+                    <input type="number" class="qty" id="qty" placeholder="1">
+                </div>
+                <div class="unit__type_wrapper inp__wrapper">
+                    <label for="unit__type" class="label unit__type-label">Unit type</label>
+                    <input type="text" class="unit__type" id="unit__type">
+                </div>
+                
+                <div class="cost__wrapper inp__wrapper">
+                    <label for="cost" class="label cost-label">£ per unit</label>
+                    <input type="number" class="cost" id="cost" placeholder="0.00"> 
+                    <div class="sing">£</div>
+                </div>
+                <div class="markap__wrapper inp__wrapper">
+                    <label for="markup" class="label markup-label">% markup</label>
+                    <input type="number" class="markup" id="markup" placeholder="0"> 
+                    <div class="procent">%</div>
+                </div>
+                <div class="total__wrapper inp__wrapper">
+                    <label for="total" class="label total-label">Total</label>
+                    <div class="total" id="total">£0.00</div>
+                </div>
+                <div class="icons">
+                    <div class="save icon"><img src="./icons/save.png" alt=""></div>
+                    <div class="delete icon"><img src="./icons/delete.png" alt=""></div>
+                </div>
+            </li>
+    
+        <div class="add__material"><span class="add__material-plus">+</span> Add material row</div>
+    </div>
+</body>
+</html>
